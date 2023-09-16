@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="5dp"
+        android:elevation="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+
+            >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="match date"
+            android:textStyle="italic"
+            android:id="@+id/matchDate"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5dp">
+
+        </TextView>
+            <TextView
+                android:id="@+id/matchType"
+                android:layout_width="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_marginLeft="230dp"
+                android:background="@drawable/matchtype_round"
+                android:text="match type"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="match name"
+            android:id="@+id/matchName"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="50dp">
+
+        </TextView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+
+            >
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="90dp"
+            android:layout_marginHorizontal="20dp"
+
+            >
+            
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:id="@+id/t1image">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/team1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="team1"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="team1Scores"
+                android:id="@+id/team1scores"
+                android:textAlignment="textEnd"
+                android:textSize="20dp"
+               >
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="130dp"
+            android:layout_marginHorizontal="20dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:id="@+id/t2image"
+                >
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/team2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="team2"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="team2Scores"
+                android:textAlignment="textEnd"
+                android:id="@+id/team2scores"
+                android:textSize="20dp">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="170dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="status"
+                android:id="@+id/status"
+                android:textAlignment="textEnd"
+                android:textColor="@color/teal_200"
+                android:textSize="20dp">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
